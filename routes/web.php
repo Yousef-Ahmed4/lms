@@ -13,8 +13,9 @@ Route::post('/deploy', function (Request $request) {
     //     abort(403, 'Unauthorized');
     // }
 
-    exec('/home/~/deploy_lms.sh');
+    exec('/home/~/public_html/deploy_lms.sh');
 
     return response()->json(['status' => 'deployed']);
 });
 //2
+//test
