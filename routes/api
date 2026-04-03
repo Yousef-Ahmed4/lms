@@ -14,3 +14,4 @@ Route::post('/deploy', function (Request $request) {
 
     return response()->json(['status' => 'deployed']);
 });
+test
